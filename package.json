@@ -1,0 +1,64 @@
+{
+  "name": "animate-block",
+  "description": "WordPress plugin to embed Adobe Animate CC animations on your site.",
+  "license": "GPL-2.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swissspidy/animate-block.git"
+  },
+  "homepage": "https://github.com/swissspidy/animate-block#readme",
+  "bugs": {
+    "url": "https://github.com/swissspidy/animate-block/issues"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.2.3",
+    "@wordpress/babel-preset-default": "^3.0.0",
+    "@wordpress/blob": "^2.1.0",
+    "@wordpress/blocks": "^6.0.2",
+    "@wordpress/components": "^7.0.2",
+    "@wordpress/compose": "^3.0.0",
+    "@wordpress/data": "^4.0.1",
+    "@wordpress/editor": "^9.0.6",
+    "@wordpress/element": "^2.1.8",
+    "@wordpress/i18n": "^3.1.0",
+    "@wordpress/plugins": "^2.0.9",
+    "autoprefixer": "^9.3.1",
+    "babel-loader": "^8.0.2",
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "cssnano": "^4.1.8",
+    "mini-css-extract-plugin": "^0.5.0",
+    "postcss-loader": "^3.0",
+    "postcss-nested": "^4.1",
+    "raw-loader": "^1.0.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1"
+  },
+  "dependencies": {
+    "@wordpress/babel-plugin-import-jsx-pragma": "^1.1.2"
+  },
+  "babel": {
+    "presets": [
+      "@wordpress/default"
+    ],
+    "plugins": [
+      [
+        "@wordpress/babel-plugin-import-jsx-pragma",
+        {
+          "scopeVariable": "createElement",
+          "source": "@wordpress/element",
+          "isDefault": false
+        }
+      ]
+    ]
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack",
+    "dev": "cross-env BABEL_ENV=default webpack --watch"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "swissspidy/animate-block",
+  "type": "wordpress-plugin",
+  "description": "WordPress plugin to embed Adobe Animate CC animations on your site.",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.2"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "files": [
+      "inc/namespace.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
