@@ -19,6 +19,20 @@ function bootstrap() {
 	add_action( 'rest_insert_attachment', __NAMESPACE__ . '\rest_extract_zip_attachment', 10, 3 );
 
 	add_filter( 'wp_prepare_attachment_for_js', __NAMESPACE__ . '\filter_attachment_for_js', 10, 2 );
+
+	add_filter( 'upload_mimes', __NAMESPACE__ . '\filter_upload_mimes' );
+}
+
+/**
+ * Filters the list of allowed mime types.
+ *
+ * @param array $mimes List of mime types.
+ * @return array Filtered list of mime types.
+ */
+function upload_mimes( $mimes ) {
+	$mimes['zip'] = 'application/zip';
+
+	return $mimes;
 }
 
 /**
