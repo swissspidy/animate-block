@@ -1,0 +1,10 @@
+.git
+.idea
+node_modules
+.distignore
+.editorconfig
+.gitignore
+composer.lock
+package.json
+package-lock.json
+webpack.config.js
