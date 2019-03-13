@@ -15,46 +15,33 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.1.6",
-    "@babel/preset-env": "^7.2.3",
-    "@wordpress/babel-preset-default": "^3.0.0",
-    "@wordpress/blob": "^2.1.0",
-    "@wordpress/blocks": "^6.0.2",
-    "@wordpress/components": "^7.0.2",
-    "@wordpress/compose": "^3.0.0",
-    "@wordpress/data": "^4.0.1",
-    "@wordpress/editor": "^9.0.6",
-    "@wordpress/element": "^2.1.8",
-    "@wordpress/i18n": "^3.1.0",
-    "@wordpress/plugins": "^2.0.9",
-    "autoprefixer": "^9.3.1",
-    "babel-loader": "^8.0.2",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@wordpress/babel-preset-default": "^4.0.0",
+    "@wordpress/blob": "^2.2.0",
+    "@wordpress/blocks": "^6.1.0",
+    "@wordpress/components": "^7.1.0",
+    "@wordpress/compose": "^3.1.0",
+    "@wordpress/data": "^4.3.0",
+    "@wordpress/editor": "^9.1.0",
+    "@wordpress/element": "^2.2.0",
+    "@wordpress/i18n": "^3.2.0",
+    "@wordpress/plugins": "^2.1.0",
+    "autoprefixer": "^9.4.10",
+    "babel-loader": "^8.0.5",
     "cross-env": "^5.2.0",
-    "css-loader": "^2.1.0",
-    "cssnano": "^4.1.8",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
     "mini-css-extract-plugin": "^0.5.0",
     "postcss-loader": "^3.0",
-    "postcss-nested": "^4.1",
+    "postcss-nested": "^4.1.2",
     "raw-loader": "^1.0.0",
-    "webpack": "^4.28.2",
-    "webpack-cli": "^3.1"
-  },
-  "dependencies": {
-    "@wordpress/babel-plugin-import-jsx-pragma": "^1.1.2"
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
   },
   "babel": {
     "presets": [
       "@wordpress/default"
-    ],
-    "plugins": [
-      [
-        "@wordpress/babel-plugin-import-jsx-pragma",
-        {
-          "scopeVariable": "createElement",
-          "source": "@wordpress/element",
-          "isDefault": false
-        }
-      ]
     ]
   },
   "scripts": {
