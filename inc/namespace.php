@@ -30,7 +30,9 @@ function bootstrap() {
  * @return array Filtered list of mime types.
  */
 function filter_upload_mimes( $mimes ) {
-	$mimes['zip'] = 'application/zip';
+	if ( ! isset( $mimes['zip'] ) ) {
+		$mimes['zip'] = 'application/zip';
+	}
 
 	return $mimes;
 }
