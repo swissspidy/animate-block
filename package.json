@@ -34,7 +34,7 @@
     "cssnano": "^4.1.10",
     "mini-css-extract-plugin": "^0.8.0",
     "postcss-loader": "^3.0",
-    "postcss-nested": "^4.2.0",
+    "postcss-nested": "^4.2.1",
     "raw-loader": "^3.1.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
