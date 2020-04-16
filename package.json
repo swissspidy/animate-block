@@ -23,7 +23,7 @@
     "@wordpress/components": "^9.4.1",
     "@wordpress/compose": "^3.13.1",
     "@wordpress/data": "^4.16.1",
-    "@wordpress/editor": "^9.14.0",
+    "@wordpress/editor": "^9.14.1",
     "@wordpress/element": "^2.13.1",
     "@wordpress/i18n": "^3.11.0",
     "@wordpress/plugins": "^2.14.1",
