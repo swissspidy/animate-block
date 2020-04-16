@@ -24,7 +24,7 @@
     "@wordpress/compose": "^3.13.0",
     "@wordpress/data": "^4.16.1",
     "@wordpress/editor": "^9.14.0",
-    "@wordpress/element": "^2.13.0",
+    "@wordpress/element": "^2.13.1",
     "@wordpress/i18n": "^3.11.0",
     "@wordpress/plugins": "^2.14.1",
     "autoprefixer": "^9.7.6",
