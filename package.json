@@ -26,7 +26,7 @@
     "@wordpress/editor": "^9.16.0",
     "@wordpress/element": "^2.14.0",
     "@wordpress/i18n": "^3.12.0",
-    "@wordpress/plugins": "^2.16.0",
+    "@wordpress/plugins": "^2.17.0",
     "autoprefixer": "^9.8.0",
     "babel-loader": "^8.1.0",
     "cross-env": "^7.0.2",
