@@ -21,7 +21,7 @@
     "@wordpress/blob": "^2.9.0",
     "@wordpress/blocks": "^6.20.1",
     "@wordpress/components": "^10.0.1",
-    "@wordpress/compose": "^3.19.1",
+    "@wordpress/compose": "^3.19.2",
     "@wordpress/data": "^4.22.1",
     "@wordpress/editor": "^9.20.2",
     "@wordpress/element": "^2.16.0",
