@@ -22,7 +22,7 @@
     "@wordpress/blocks": "^6.23.0",
     "@wordpress/components": "^11.0.0",
     "@wordpress/compose": "^3.21.0",
-    "@wordpress/data": "^4.23.1",
+    "@wordpress/data": "^4.24.0",
     "@wordpress/editor": "^9.22.0",
     "@wordpress/element": "^2.18.0",
     "@wordpress/i18n": "^3.16.0",
