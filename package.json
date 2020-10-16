@@ -20,7 +20,7 @@
     "@wordpress/babel-preset-default": "^4.19.0",
     "@wordpress/blob": "^2.10.0",
     "@wordpress/blocks": "^6.23.0",
-    "@wordpress/components": "^11.0.0",
+    "@wordpress/components": "^11.0.1",
     "@wordpress/compose": "^3.21.0",
     "@wordpress/data": "^4.24.0",
     "@wordpress/editor": "^9.23.1",
