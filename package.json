@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.13.0",
-    "@babel/core": "^7.13.1",
+    "@babel/core": "^7.13.8",
     "@babel/preset-env": "^7.13.8",
     "@wordpress/babel-preset-default": "^5.0.1",
     "@wordpress/blob": "^2.12.1",
