@@ -36,7 +36,7 @@
     "postcss-loader": "^5.2",
     "postcss-nested": "^5.0.5",
     "raw-loader": "^4.0.1",
-    "webpack": "^5.25.0",
+    "webpack": "^5.25.1",
     "webpack-cli": "^4.5.0"
   },
   "babel": {
